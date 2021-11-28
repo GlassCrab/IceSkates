@@ -1,0 +1,17 @@
+name: IceSkates
+version: '${project.version}'
+main: iceskates.us.glasscrab.i.IceSkates.Main
+api-version: 1.17
+authors: [ glasscrab ]
+description: Use ice skates to move faster on ice!
+website: i.glasscrab.us
+commands:
+  giveSkates:
+    description: gives you ice skates!
+    usage: /<command> <user>
+    permission: iceskates.giveskates
+    permission-message: §cYou don't have permission to give Ice Skates!
+permissions:
+  iceskates.giveskates:
+    description: Lets the player give Ice Skates to others or themselves.
+    default: op
